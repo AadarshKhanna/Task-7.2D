@@ -1,0 +1,87 @@
+
+.inline-block{
+  display: block;
+  width:101.5%;
+  height: auto;
+  background-color: rgb(198, 191, 191);
+  font-size: large;
+  font-weight: bold;
+  font-style: "Times New Roman";
+  text-align: center;
+  font-size: 38px;
+  margin-left: -15px;
+  
+}
+
+.alignleft{
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  font-style: "Times New Roman";
+}
+.aligncenter{
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 24px;
+  font-style: "Times New Roman";
+}
+
+.alnleft{
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: "Times New Roman";
+}
+textarea{
+  width: 35%;
+  height: 350px;
+  text-align: left;
+  font-size: 20px;
+  font-style: "Times New Roman";
+}
+
+.marginleft{
+  margin-right: 30.5%;
+}
+
+.marginlt{
+  margin-right: 29%;
+}
+
+.marginright{
+  margin-right: 24%;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: "Times New Roman";
+  
+}
+.article_area{
+  width: 30%;
+  height: 250px;
+  text-align: left;
+  margin-top: 1px;
+  font-style: "Times New Roman";
+}
+
+.abstract_area{
+  width: 27%;
+  height: 50px;
+  margin-top: 1px;
+  font-style: "Times New Roman";
+}
+
+.b_type{
+  width: 10%;
+  font-size: 25px;
+  margin-left: 26%;
+  background-color: gray;
+  font-style: "Times New Roman";
+}
+

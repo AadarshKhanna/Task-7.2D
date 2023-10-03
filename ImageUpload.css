@@ -1,0 +1,87 @@
+/* Styling for the progress bar container */
+.bar {
+  height: 40px;
+  width: 500px;
+  background: #80808073;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the progress bar */
+.progress {
+  background: linear-gradient(12deg, red, blue);
+  height: 100%;
+  width: 5%;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the upload percentage text */
+.uploadPercentage {
+  font-size: 25px;
+}
+
+/* Styling for the text alignment within the image upload section */
+.imagealign {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  font-style: "Times New Roman";
+}
+
+/* Styling for the container holding the image upload elements */
+.image-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styling for the image upload section */
+.image-upload {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the custom file input element */
+.custom-file-input {
+  width: 10%;
+  font-size: 20px;
+  background-color: gray;
+  font-style: "Times New Roman";
+  border: solid black 1px;
+}
+
+/* Styling for the upload button */
+.upload {
+  width: 10%;
+  font-size: 20px;
+  background-color: gray;
+  font-style: "Times New Roman";
+  margin-left: 6px;
+  margin-top: 0px; /* Corrected duplicate margin-top property */
+}
+
+/* Styling for image elements */
+.img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  display: none;
+  border: 5px solid cornflowerblue;
+}
+
+/* Styling for the container of uploaded images */
+.imageUploaded {
+  margin-top: 10px;
+}
+
+/* Styling for the block element */
+.blk {
+  display: block;
+}
+
+/* Styling for left-aligned text */
+.left-align {
+  text-align: left;
+}
