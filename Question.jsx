@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Home.css';
+
 const Question = ({ title, description, tags, date, onDelete, index, imageSrc }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -14,11 +15,10 @@ const Question = ({ title, description, tags, date, onDelete, index, imageSrc })
   return (
     <div className="question-box">
       <div className="question">
-        <img src={imageSrc} alt="Question Image" />
+        {imageSrc && <img src={imageSrc} alt="" />}
         <h3>{title}</h3>
         <div className="buttons">
-          <button onClick={toggleExpansion}
-            className="expand-button">
+          <button onClick={toggleExpansion} className="expand-button">
             {isExpanded ? 'Collapse' : 'Expand'}
           </button>
           <button onClick={handleDelete}>Delete</button>
@@ -30,9 +30,7 @@ const Question = ({ title, description, tags, date, onDelete, index, imageSrc })
           <p>{description}</p>
           <div className="tags">
             <strong>Tags:</strong>
-            {tags.map((tag, index) => (
-              <span key={index}>{tag}</span>
-            ))}
+            <span key={index}>{tags}</span>
           </div>
           <p className="date">{date}</p>
         </div>
